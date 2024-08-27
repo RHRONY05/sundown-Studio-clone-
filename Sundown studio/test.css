@@ -1,0 +1,33 @@
+body{
+    padding: 50px;
+}
+.hero1{
+    height: 30vw;
+    width: 30vw;
+    background-color: orangered;
+    filter: blur(10px);
+    border-radius: 50%;
+    position: absolute;
+    background: linear-gradient(to top, orangered, blue);
+
+    animation: anime 5s infinite linear alternate ;
+}
+.hero2{
+    height: 30vw;
+    width: 30vw;
+    filter: blur(10px);
+    background-color: orangered;
+    border-radius: 50%;
+    position: absolute;
+    background: linear-gradient(to top, orangered, blue);
+
+    animation: anime 6s infinite linear alternate ;
+}
+@keyframes anime {
+    from{
+        transform: translate(0%, -15%);
+    }
+    to{
+        transform: translate(0%, 15%);
+    }
+}
